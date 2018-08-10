@@ -1,9 +1,9 @@
 #version 330 core
 
-in vec3 FragPos;
-in vec3 Normal;
+in vec3 FragPos; // fragment position (interpolated)
+in vec3 Normal; // fragment normal vector (interpolated)
 
-out vec4 FragColor;
+out vec4 FragColor; // fragment color
 
 struct Light
 {
@@ -29,7 +29,7 @@ struct Material
 
 uniform Light light;
 uniform Material material;
-uniform vec3 viewPos;
+uniform vec3 viewPos; // eye's/camera's position in world coordinates
 
 void main()
 {
