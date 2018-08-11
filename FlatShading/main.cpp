@@ -97,7 +97,7 @@ int main(void)
 
 	// build and compile shader program
 	// --------------------------------
-	Shader myShader = Shader("../PhongShading/shader.vert", "../PhongShading/shader.frag");
+	Shader myShader = Shader("../FlatShading/shader.vert", "../FlatShading/shader.frag");
 	// --------------------------------
 
 
