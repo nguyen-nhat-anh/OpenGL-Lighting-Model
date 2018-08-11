@@ -63,7 +63,7 @@ int main(void)
 
 	// Create window
 	// -------------
-	GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Phong Shading", NULL, NULL);
+	GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Gouraud Shading", NULL, NULL);
 	if (window == NULL)
 	{
 		std::cout << "Failed to create GLFW window" << std::endl;
@@ -97,7 +97,7 @@ int main(void)
 
 	// build and compile shader program
 	// --------------------------------
-	Shader myShader = Shader("../PhongShading/shader.vert", "../PhongShading/shader.frag");
+	Shader myShader = Shader("../GouraudShading/shader.vert", "../GouraudShading/shader.frag");
 	// --------------------------------
 
 
@@ -174,7 +174,7 @@ int main(void)
 	 // Light
 	Light light;
 	
-	light.position = glm::vec3(0.0f, 0.1f, 1.5f);
+	light.position = glm::vec3(0.0f, 0.5f, 1.5f);
 	
 	light.ambient = glm::vec3(0.5f, 0.5f, 0.5f);
 	light.diffuse = glm::vec3(1.0f, 1.0f, 1.0f);
