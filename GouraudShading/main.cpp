@@ -13,8 +13,8 @@ void scroll_callback(GLFWwindow* window, double xoffset, double yoffset);
 void processInput(GLFWwindow *window);
 
 // screen settings
-const unsigned int SCR_WIDTH = 600;
-const unsigned int SCR_HEIGHT = 600;
+const unsigned int SCR_WIDTH = 700;
+const unsigned int SCR_HEIGHT = 700;
 
 // initial camera settings
 Camera camera = Camera(glm::vec3(0.02f, 0.74f, 3.46f), glm::vec3(0.0f, 1.0f, 0.0f), -89.4f, -13.8f);
