@@ -9,6 +9,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GouraudShading", "GouraudSh
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FlatShading", "FlatShading\FlatShading.vcxproj", "{5141A3C0-5DCF-4162-826E-880740F1B3A6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CustomInterpolation", "CustomInterpolation\CustomInterpolation.vcxproj", "{E12727FC-D1B8-424A-BD5E-940D14962A9C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CustomInterpolation", "NoInterpolation\NoInterpolation.vcxproj", "{AA29303B-A555-428B-9BEF-51C38C6D52F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +45,22 @@ Global
 		{5141A3C0-5DCF-4162-826E-880740F1B3A6}.Release|x64.Build.0 = Release|x64
 		{5141A3C0-5DCF-4162-826E-880740F1B3A6}.Release|x86.ActiveCfg = Release|Win32
 		{5141A3C0-5DCF-4162-826E-880740F1B3A6}.Release|x86.Build.0 = Release|Win32
+		{E12727FC-D1B8-424A-BD5E-940D14962A9C}.Debug|x64.ActiveCfg = Debug|x64
+		{E12727FC-D1B8-424A-BD5E-940D14962A9C}.Debug|x64.Build.0 = Debug|x64
+		{E12727FC-D1B8-424A-BD5E-940D14962A9C}.Debug|x86.ActiveCfg = Debug|Win32
+		{E12727FC-D1B8-424A-BD5E-940D14962A9C}.Debug|x86.Build.0 = Debug|Win32
+		{E12727FC-D1B8-424A-BD5E-940D14962A9C}.Release|x64.ActiveCfg = Release|x64
+		{E12727FC-D1B8-424A-BD5E-940D14962A9C}.Release|x64.Build.0 = Release|x64
+		{E12727FC-D1B8-424A-BD5E-940D14962A9C}.Release|x86.ActiveCfg = Release|Win32
+		{E12727FC-D1B8-424A-BD5E-940D14962A9C}.Release|x86.Build.0 = Release|Win32
+		{AA29303B-A555-428B-9BEF-51C38C6D52F3}.Debug|x64.ActiveCfg = Debug|x64
+		{AA29303B-A555-428B-9BEF-51C38C6D52F3}.Debug|x64.Build.0 = Debug|x64
+		{AA29303B-A555-428B-9BEF-51C38C6D52F3}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA29303B-A555-428B-9BEF-51C38C6D52F3}.Debug|x86.Build.0 = Debug|Win32
+		{AA29303B-A555-428B-9BEF-51C38C6D52F3}.Release|x64.ActiveCfg = Release|x64
+		{AA29303B-A555-428B-9BEF-51C38C6D52F3}.Release|x64.Build.0 = Release|x64
+		{AA29303B-A555-428B-9BEF-51C38C6D52F3}.Release|x86.ActiveCfg = Release|Win32
+		{AA29303B-A555-428B-9BEF-51C38C6D52F3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
