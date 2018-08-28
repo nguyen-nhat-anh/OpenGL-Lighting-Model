@@ -11,7 +11,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FlatShading", "FlatShading\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CustomInterpolation", "CustomInterpolation\CustomInterpolation.vcxproj", "{E12727FC-D1B8-424A-BD5E-940D14962A9C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CustomInterpolation", "NoInterpolation\NoInterpolation.vcxproj", "{AA29303B-A555-428B-9BEF-51C38C6D52F3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NoInterpolation", "NoInterpolation\NoInterpolation.vcxproj", "{AA29303B-A555-428B-9BEF-51C38C6D52F3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhongShading2", "PhongShading2\PhongShading2.vcxproj", "{57D984E9-C878-4072-BF55-A088277E62E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,14 @@ Global
 		{AA29303B-A555-428B-9BEF-51C38C6D52F3}.Release|x64.Build.0 = Release|x64
 		{AA29303B-A555-428B-9BEF-51C38C6D52F3}.Release|x86.ActiveCfg = Release|Win32
 		{AA29303B-A555-428B-9BEF-51C38C6D52F3}.Release|x86.Build.0 = Release|Win32
+		{57D984E9-C878-4072-BF55-A088277E62E9}.Debug|x64.ActiveCfg = Debug|x64
+		{57D984E9-C878-4072-BF55-A088277E62E9}.Debug|x64.Build.0 = Debug|x64
+		{57D984E9-C878-4072-BF55-A088277E62E9}.Debug|x86.ActiveCfg = Debug|Win32
+		{57D984E9-C878-4072-BF55-A088277E62E9}.Debug|x86.Build.0 = Debug|Win32
+		{57D984E9-C878-4072-BF55-A088277E62E9}.Release|x64.ActiveCfg = Release|x64
+		{57D984E9-C878-4072-BF55-A088277E62E9}.Release|x64.Build.0 = Release|x64
+		{57D984E9-C878-4072-BF55-A088277E62E9}.Release|x86.ActiveCfg = Release|Win32
+		{57D984E9-C878-4072-BF55-A088277E62E9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
