@@ -241,9 +241,9 @@ int main(void)
 		model = glm::rotate(model, glm::radians(90.0f), glm::vec3(1.0f, 0.0f, 0.0f));
 
 		float radius = 3.0f;
-		float camX = sin(glfwGetTime() * 0.5f) * radius;
-		float camZ = abs(cos(glfwGetTime() * 0.5f)) * radius;
-		glm::vec3 cameraPosition = glm::vec3(camX, 0.0f, camZ);
+		float cameraX = sin(glfwGetTime() * 0.5f) * radius;
+		float cameraZ = abs(cos(glfwGetTime() * 0.5f)) * radius;
+		glm::vec3 cameraPosition = glm::vec3(cameraX, 0.0f, cameraZ);
 		view = glm::lookAt(cameraPosition, glm::vec3(0.0f, 0.0f, 0.0f), glm::vec3(0.0f, 1.0f, 0.0f));
 
 		projection = glm::perspective(glm::radians(45.0f), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
